@@ -1,0 +1,9 @@
+quiz1.txt
+
+1. cd <dir>
+2. git is a version control language / GitHub is the pretty package where we put all our git stuff and code
+3. where we store the code and code history
+4. git add .
+5. 3
+6. a separate branch/version that goes parallel with the code base
+7. to make sure your code is up to date with the code base before pushing any changes
