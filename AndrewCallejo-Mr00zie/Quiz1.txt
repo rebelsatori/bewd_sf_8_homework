@@ -7,3 +7,4 @@ Quiz
 5. 3
 6. a branched directory?
 7. for info to be added to a specific directory
+8. difference between fork and clone. Cloning is taking an exisiting information/file from the orgin directory and copying it into your local working directory.  
