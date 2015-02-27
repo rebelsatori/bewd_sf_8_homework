@@ -1,0 +1,8 @@
+1. ls first, then type pwd then ls, also you can type in cd .. to go back up one section
+Git is local, you can use it without the Internet. GitHub is online, you need the Internet for it and that's where you can push stuff and save it there for keeps. 
+A repository is simply a place where the history of your work is stored. It often lives in a .git subdirectory of your working copy - a copy of the most recent state of the files you're working on.
+You Git Add a file when you want to put it into a stage
+git commit -m "push to GitHub"
+A fork is request for Github to clone your project and put it under your username
+Pull request is if you want a copy of a file on GitHub that you want to save on your desktop or computer
+Cloning is when you copy an entire website or something from  a web address into your computer so you can code on it and work on it, while forking is cloning request for Github under your name....Clone checks out the entire repository for local use (with the idea that the changes will be pushed back to the master at some point)
