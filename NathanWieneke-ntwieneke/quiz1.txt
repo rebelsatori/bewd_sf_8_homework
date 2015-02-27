@@ -1,0 +1,9 @@
+Quiz 1
+cd
+git is local, Github is on the net/ can be shared
+database that has the git history
+add
+git push
+a fork creates a new branch
+this will merge the github project with your local git
+forking will create a new branch, cloning will redownload the entire github repository
