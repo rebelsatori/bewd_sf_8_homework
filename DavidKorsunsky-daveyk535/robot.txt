@@ -1,0 +1,74 @@
+Instructions:
+Face right
+Two steps forward
+Face left
+Two steps forward
+Face left
+Extend arm to handle
+Lift handle
+Pull door open 45 degrees
+Release door
+One step right
+One step forward
+One step left
+Turn 90 degrees left
+Lift right left to knee level, bend knee 90 degrees
+Extend right foot, stop at floor board
+Move buttocks to seat, stop when buttocks hits seat
+Lift left left to knee level, bend knee 90 degrees
+Extend left foot, stop at floor board
+Extend left arm to inner door handle
+Pull door, stop when door latches
+Extend right foot, flex right ankle up 45 degrees, extend foot and stop when pedal reaches floor.
+
+Variables:
+1. Door lock: boolean
+2. Speed: integer
+3. Distance traveled: float
+4. Wheel rotation: float
+5. Tire pressure: float
+6. Lap times: array of floats
+7. Fuel level: float
+8. Roadkill: integer
+9. Position: integer
+10. Winner: boolean
+
+Methods:
+def get_in_car (role, car, key)
+	if driver {
+	Face right
+	Two steps forward
+	Face left
+	Two steps forward
+	Face left
+	Extend arm to handle
+	Lift handle
+	Pull door open 45 degrees
+	}
+end
+
+def prepare_to_drive
+	Release door
+	One step right
+	One step forward
+	One step left
+	Turn 90 degrees left
+	Lift right left to knee level, bend knee 90 degrees
+	Extend right foot, stop at floor board
+	Move buttocks to seat, stop when buttocks hits seat
+	Lift left left to knee level, bend knee 90 degrees
+	Extend left foot, stop at floor board
+	Extend left arm to inner door handle
+	Pull door, stop when door latches
+end
+
+def drive (min_speed, max_speed, gear)
+	
+end
+
+
+
+
+
+
+
