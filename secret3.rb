@@ -1,3 +1,8 @@
+#Improvements:
+#Capitalize first name and last name
+#Validate name is only letters
+#Validate guess is only numbers and is less than 10
+
 #Secret number game developer by Dave Korsunsky
 
 #Basic intro to the game
@@ -23,11 +28,11 @@ def evaluate_guess (guess, secret)
 end
 
 while attempts > 0
-  puts "Please make your guess:"
+  puts "Please make your guess (0-10):"
   guess = gets.chomp.to_i
   attempts -= 1
   compare = evaluate_guess(guess, secret)
-  if compare == 'win' && attempts > 0
+  if compare == 'win' #&& attempts > 0
       puts "You win"
       break
     elsif compare == 'lower' && attempts > 0
@@ -36,8 +41,8 @@ while attempts > 0
     elsif compare == 'higher' && attempts > 0
       puts "Guess higher!"
       puts "You have " + attempts.to_s + " guess(es) left"
-    elsif compare == 'win' && attempts == 0
-    puts "You win"
+    # elsif compare == 'win' && attempts == 0
+    # puts "You win"
     elsif compare == 'lower' || compare == 'higher'
       puts "You lose, sucka."
   end
