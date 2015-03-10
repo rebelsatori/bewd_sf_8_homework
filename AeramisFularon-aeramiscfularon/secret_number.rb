@@ -57,22 +57,19 @@ puts "What is your first guess?"
 guess = gets.chomp.to_i
 
 while guess != secret_number
+	puts "--------------------------------------------------"
 	if guess < 0 || guess > 10
-		puts "--------------------------------------------------"
 		puts "Please choose a number between 1 and 10."
 		guess = gets.chomp.to_i
 	elsif tries.to_i == 1
-		puts "--------------------------------------------------"
 		puts "Oh noes! You lost the game!"
 		abort("Secret number is... " + secret_number.to_s)
 	elsif guess < secret_number
-		puts "--------------------------------------------------"
 		tries = tries - 1
 		puts("You guessed too low.".ljust(width/2) + ("# of tries left: " + tries.to_s).rjust(width/2))
 		puts "What is your next guess?"
 		guess = gets.chomp.to_i
 	elsif guess > secret_number
-		puts "--------------------------------------------------"
 		tries = tries - 1
 		puts("You guessed too high.".ljust(width/2) + ("# of tries left: " + tries.to_s).rjust(width/2))
 		puts "What is your next guess?"
