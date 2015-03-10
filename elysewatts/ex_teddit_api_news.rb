@@ -13,13 +13,16 @@ json = RestClient.get('http://reddit.com/.json')
 result = JSON.load json
 
 story = {}
+stories = []
 
 
 result['data']['children'].each do |story|
 	title = story['data']['title']
 	category = story['data']['subreddit']
 	upvotes = story['data']['ups']
-	stories['title'] = title
+	story['title'] = title
+
+	stories.push story
 end
 
 
