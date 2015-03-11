@@ -13,7 +13,7 @@ puts "Hi " + name + '!'
 puts "You have three attempts to guess the secret number between 1 and 10."
 
 #Game logic
-secret = 8
+secret = 5
 attempts = 3
 
 
