@@ -4,13 +4,13 @@ require 'pry'
 
 reddit = JSON.load(RestClient.get('http://www.reddit.com/.json'))
 
-mars = reddit['data']['children']
+stories = reddit['data']['children']
 
-puts mars.class
-puts mars.first["data"]["score"]
-puts mars.first["data"]["title"]
+puts stories.class
+puts stories.first["data"]["score"]
+puts stories.first["data"]["title"]
 
-mars.each do |story|
+stories.each do |story|
 puts 'Upvotes: ' + story["data"]["score"].to_s + ', Title: ' + story["data"]["title"] + ', Subreddit: ' + story["data"]["subreddit"] + '.'
 	
 end
