@@ -1,0 +1,11 @@
+cd
+Git is basic commands and Github is all the extras that make git easier to use
+
+a place to keep files/ folders that will be pulled or cloned from
+git commit -m "......."
+git push
+a branch from the repository where one can clone a file or folder
+to get access to a folder/file from the repository
+
+forking is to generate a new http address and a folder to work on one’s own
+cloning is to copy the contents of a folder and then proceed to use it
