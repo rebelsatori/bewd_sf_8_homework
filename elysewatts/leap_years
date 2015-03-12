@@ -1,0 +1,21 @@
+puts "starting year: "
+starting_year = gets.chomp.to_i
+
+puts "ending year: "
+ending_year = gets.chomp.to_i
+
+leap_years = []
+year = starting_year
+
+starting_year.upto ending_year do |year|
+	if year % 4 == 0 && year % 100 != 0 
+		leap_years.push year
+	elsif year % 4 == 0 && year % 400 == 0 
+		leap_years.push year
+	end
+end
+
+puts "the leap years between #{starting_year} and #{ending_year} are "
+puts leap_years
+
+
