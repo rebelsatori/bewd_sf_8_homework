@@ -5,4 +5,4 @@
 5.  2) git commit -m " "
 6. Fork is a means to add your github account and changes to a global repository which then allows you to stage changes and add / push them??
 7. Pull requests update local repositories with all official or final changes made in the master repository
-8. Difference between cloning and forking? Not sure I know what forking really is, but i feel like cloning is similar to pull in that I'm updating or copying a versino of everything over to my local repository so that I can edit it. 
+8. Difference between cloning and forking? Not sure I know what forking really is, but i feel like cloning is similar to pull in that I'm updating or copying a versino of everything over to my local repository so that I can edit it. I
