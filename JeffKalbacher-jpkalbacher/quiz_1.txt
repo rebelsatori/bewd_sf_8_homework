@@ -1,0 +1,14 @@
+1. cd
+2. github is an online resource that allows us to store and work on projects, share code, merge, etc. git is a language(?) that allows us to do that
+3. a folder that stores code, files, images, etc.
+4. git add .
+5. commit
+6. a fork is a copy of a repository that allows you to work on that repository without changing the master copy
+7. pull requests exist as a blocker between those submitting code and those reviewing it. in an open source project, i can't merge my code without someone reviewing it.
+8. something to do with the dots on the board from last week. a fork is worked on separately (not added as a dot in time) - a clone adds a new dot in time?????
+
+
+
+- redridge
+- hand calls off to syd
+- 
