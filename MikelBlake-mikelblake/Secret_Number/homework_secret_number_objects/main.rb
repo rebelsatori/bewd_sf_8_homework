@@ -41,7 +41,17 @@ require_relative 'lib/player'
 require_relative 'lib/secret_number'
 
 # TODO: put code here print a welcome message for your user
+puts 'Welcome to the Secret Number Game! Brought to you by Mikel Blake'
+
 
 # TODO: put code here ask the user for their name, and save it in a Player object.
+puts "What's your name?"
+name = gets.chomp
+player = Player.new(name)
+puts "Hello #{player.name}, let's play!"
 
 # TODO: put code here to initialize a new Game object, and start it
+#Game.new(SecretNumber.new, player).start
+
+game = Game.new
+game.play
