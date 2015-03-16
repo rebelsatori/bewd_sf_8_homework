@@ -11,6 +11,6 @@ puts stories.first["data"]["score"]
 puts stories.first["data"]["title"]
 
 stories.each do |story|
-puts 'Upvotes: ' + story["data"]["score"].to_s + ', Title: ' + story["data"]["title"] + ', Subreddit: ' + story["data"]["subreddit"] + '.'
+	puts 'Upvotes: ' + story["data"]["score"].to_s + ', Title: ' + story["data"]["title"] + ', Subreddit: ' + story["data"]["subreddit"] + '.'
 	
 end
