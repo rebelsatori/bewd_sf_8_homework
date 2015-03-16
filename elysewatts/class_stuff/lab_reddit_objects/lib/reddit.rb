@@ -1,26 +1,25 @@
 # HINT: You will have to add an initialize method!
 
 class Reddit
-  attr_accessor :stories, :title, :upvotes, :url
+  attr_accessor :headlines, :title, :upvotes, :url
 
 
   def initialize
-    @stories = []
+    @headlines = []
   end
 
   def fetch_stories
-    if @stories.empty? 
-      reddit_json_string = RestClient.get('http://www.reddit.com/.json')
-      reddit_json = JSON.load reddit_json_string
-        reddit_json['data']['children'].each do |story| ## maybe i'm not calling the right section?
-          title = story['title']
-          upvotes = story['ups']
-          url = story['permalink']
-          clean_story = Story.new(title, upvotes, url, 'reddit.com') ## everything coming up nil but the hard code :(((
-          @stories << clean_story 
-        end
-    end
-    @stories
+    reddit_json_string = RestClient.get('http://www.reddit.com/.json') # ruby doesn't understand this is json
+    reddit_json = JSON.load reddit_json_string # load string as json so ruby can understand it
+    reddit_stories = reddit_json['data']['children'] # this is an array of hashes, each hash contained is a story
+    reddit_stories.each do |story| 
+      title = story['data']['title']
+        upvotes = story['data']['ups']
+        url = story['data']['url']
+        headline = Story.new(title, upvotes, url, 'reddit.com')
+        @headlines << headline 
+      end
+    @headlines
   end
 
 

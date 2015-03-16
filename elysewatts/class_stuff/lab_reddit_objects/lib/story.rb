@@ -10,9 +10,9 @@ class Story
   end
 
   def print_headline
-  	puts "#{@title}"
-  	puts "#{@url} (#{@source})"
-  	puts "#{@upvotes} upvotes"
+  	puts "\n\n#{@title}"
+  	puts "#{@url}, via #{@source}"
+    puts "#{@upvotes} upvotes\n\n"
   end
 
 

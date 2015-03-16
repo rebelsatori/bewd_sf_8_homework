@@ -4,7 +4,19 @@
 #   3. Display them with the other stories in main.rb
 
 class Mashable
+	attr_accessor :stories
+
+
+	def initialize
+		@stories = []
+	end
+
+
   def fetch_stories
-    []
+  	if @stories.is_empty?
+
+  		## sames as reddit but for mashable api
+  	end
+    
   end
 end
