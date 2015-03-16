@@ -8,5 +8,4 @@ attr_accessor :player_name
 	end
 
 
-
 end
