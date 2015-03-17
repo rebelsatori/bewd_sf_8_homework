@@ -44,7 +44,7 @@ require_relative 'lib/secret_number'
 # TODO: put code here print a welcome message for your user
 # TODO: put code here to initialize a new Game object, and start it
 
-game = Game.new
-game.play
+Game.new.play
+
 
 
