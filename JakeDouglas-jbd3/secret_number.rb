@@ -70,7 +70,7 @@ player_name = gets.chomp
 puts 'Hi ' + player_name + '!'
 
 # tell them the rules
-puts 'All you have to do is guess a number between 1 and 10! You get 3 tries, otherwise, someone kills your pet.'
+puts 'All you have to do is guess a number between 1 and 10! You get 3 tries, otherwise, someone will punch your mom.'
 
 # get random number between 1 and 10
 r_number = 2 + rand(8)
@@ -95,7 +95,7 @@ else
 		guess_right
 		else
 		game_over
-		puts 'The correct number was ' + r_number.to_s + '! Sorry about your pet :('
+		puts 'The correct number was ' + r_number.to_s + '! Sorry about your mom :('
 		end
 	end
 end
