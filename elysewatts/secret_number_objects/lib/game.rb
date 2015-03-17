@@ -1,15 +1,16 @@
 class Game
 attr_accessor :number_of_guesses, :guess, :number
 
+
 	def initialize
 		@number_of_guesses = 3
 		@guess = 0
 		@number = Secret_number.new.secret_number
-		@player = Player.new.player_name
+		@player_name = Player.new.player_name
 	end
 
 	def greet_player
-		puts "Welcome, #{@player},to SECRET NUMBER"
+		puts "Welcome, #{@player_name},to SECRET NUMBER"
 		puts "You must guess a number between 1 and 10."
 		puts "You only get three tries!"
 	end
@@ -22,22 +23,18 @@ attr_accessor :number_of_guesses, :guess, :number
 	end
 
 	def judge_guess
-		if @guess > @number
-			puts "Too high." 
-		elsif @guess < @number
-			puts "Too low."
-		end
+		puts "Too high." if @guess > @number
+		puts "Too low." if @guess < @number
 	end
 
 	def play
 		greet_player
-			while @number_of_guesses > 0 && @guess != @number
-				solicit_guess
-				judge_guess
-			end
-		if @guess == @number then puts "You win!"
-			else puts "Sorry, the number was #{@number}"
+		while @number_of_guesses > 0 && @guess != @number
+			solicit_guess
+			judge_guess
 		end
+		puts "You win!" if @guess == @number			
+		puts "Sorry, the number was #{@number}" if @guess != @number
 	end
 			
 	
