@@ -1,0 +1,10 @@
+Quiz
+
+1. cd
+2. Git is local/commands Git Hub is a repository outside your local repository...
+3. a place to store your work
+4. git commit -m 
+5. 3
+6. a branched directory?
+7. for info to be added to a specific directory
+8. difference between fork and clone. Cloning is taking an exisiting information/file from the orgin directory and copying it into your local working directory.  
