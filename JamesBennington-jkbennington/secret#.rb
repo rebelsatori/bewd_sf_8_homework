@@ -17,27 +17,26 @@ while true
 	break
 	end
 
-	puts 'Your guess?'
-	guess = gets.chomp
+		puts 'Your guess?'
+		guess = gets.chomp
 
 	if guess.to_i == secret_number
 		puts 'Woohoo! You da champ' + name.capitalize + '!'
-	break
-
+		break
 	elsif guess.to_i > secret_number
 		guesses_left = guesses_left - 1
-		if guesses_left == 1
-		puts 'Little lower, last chance!'
-		else
-		puts 'Mmmm... litttttle lower You have ' + guesses_left.to_s + ' guesses left.'
-	    end
+			if guesses_left == 1
+				puts 'Little lower, last chance!'
+			else
+				puts 'Mmmm... litttttle lower You have ' + guesses_left.to_s + ' guesses left.'
+	    	end
 	
 	elsif
 		guesses_left = guesses_left - 1
 		if guesses_left==1
-		puts 'Little bit higher! Come on! Last chance!'
+			puts 'Little bit higher! Come on! Last chance!'
 		else
-		puts 'Come on just a little higher! You have ' + guesses_left.to_s + ' guesses left.' 
+			bputs 'Come on just a little higher! You have ' + guesses_left.to_s + ' guesses left.' 
 	    end
 	end
 
