@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"number",
+				"number_of_guesses"
+			],
+			[
+				"numb",
+				"number_of_guesses"
+			],
+			[
+				"secr",
+				"secret_num"
+			],
+			[
+				"num",
+				"number_of_guesses"
+			],
+			[
+				"the",
+				"the_num"
+			],
+			[
+				"sec",
+				"secret_num"
+			],
+			[
+				"Sec",
+				"SecretNumber"
+			],
+			[
+				"apt",
+				"apt_len"
+			],
+			[
+				"bui",
+				"building_name"
+			],
+			[
+				"ap",
+				"apartments"
+			],
+			[
+				"bu",
+				"building_address"
+			],
+			[
+				"building",
+				"building_name"
+			],
+			[
+				"class",
+				"class_apartment"
+			],
+			[
+				"resu",
+				"result_hash"
+			],
+			[
+				"re",
+				"reddit_hash"
+			],
+			[
+				"new",
+				"new_arr"
+			],
+			[
+				"arr",
+				"arr_index_len"
+			],
+			[
+				"sub",
+				"subreddit"
+			],
+			[
+				"redd",
+				"reddit_hash"
+			],
+			[
+				"reddi",
+				"reddit_json"
+			],
+			[
+				"red",
+				"reddit_json"
+			],
+			[
+				"Buzz",
+				"Buzz"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"my",
+				"my_numbers"
+			],
+			[
+				"first",
+				"first_year"
+			],
+			[
+				"up",
+				"upcase"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"bye",
+				"bye_count"
+			],
+			[
+				"bot",
+				"bottles_left"
+			],
+			[
+				"bo",
+				"bottles_left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.rb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/app/views/greeter/goodbye.html.erb",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/app/controllers/greeter_controller.rb",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/routes.rb",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/environment.rb",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/database.yml",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/application.rb",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/boot.rb",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/.gitignore",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/.DS_Store",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/README.rdoc",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/Rakefile",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/Gemfile.lock",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/Gemfile",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config.ru",
+		"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/secrets.yml",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8_homework/MattBrown-matttbrown/homework_secret_number_objects copy/lib/secret_number.rb",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8_homework/MattBrown-matttbrown/github_api_search.rb",
+		"/Users/mattbrown/Desktop/testing.rb",
+		"/Users/mattbrown/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/mattbrown/Desktop/test.md",
+		"/Users/mattbrown/Desktop/spot.rb",
+		"/Users/mattbrown/Desktop/tweet.xml",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8/04_Collections_APIs/starter_code/ex_teddit_api_news.rb",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8/homework/ruby/secret_number.rb",
+		"/Users/mattbrown/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8/03_Collections_Loops/starter_code/ex_arrays.rb",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8/02_Variables_Conditionals/starter_code/code_demo_methods.rb",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8/02_Variables_Conditionals/starter_code/code_demo_boolean.rb",
+		"/Users/mattbrown/Dropbox/Code/bewd_sf_8_homework/MattBrown-matttbrown/Quiz1.txt",
+		"/Users/mattbrown/projects/goals.rb",
+		"/Users/mattbrown/BEWD_SF_8/README.md",
+		"/Users/mattbrown/BEWD_SF_8/INSTALL.md",
+		"/Users/mattbrown/BEWD_SF_8/01_Dev_Workflow/exercises/ex_command_line_basics.md",
+		"/Users/mattbrown/htest/test_app/config/routes.rb",
+		"/Users/mattbrown/htest/test_app/Gemfile",
+		"/Users/mattbrown/.ssh/id_rsa.pub",
+		"/Users/mattbrown/.zshrc.pre-oh-my-zsh",
+		"/Users/mattbrown/Downloads/The Great Beauty [2013]-720p-BRrip-x264-StyLishSaLH (StyLish Release)/The Great Beauty [2013]-720p-BRrip-x264-StyLishSaLH (StyLish Release).srt",
+		"/Users/mattbrown/Dropbox/MovesMapper/Move.pde",
+		"/Users/mattbrown/Desktop/import.py",
+		"/Users/mattbrown/Dropbox/MovesMapper/Config.pde"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"view_apart",
+			"apt_sqft",
+			"renter",
+			"+",
+			"current_num",
+			"wrap",
+			"head"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"gender",
+			"",
+			"number"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.rb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"greeter_con",
+				"app/controllers/greeter_controller.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"",
+				"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/routes.rb"
+			],
+			[
+				"users/matbrown/dropbox/code/projects/apartment_listing",
+				"/Users/mattbrown/Dropbox/Code/projects/apartment_listing/config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}
