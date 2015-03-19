@@ -13,4 +13,11 @@ reddit_feed.slice(1..3).each do |story| # for each story object in the array ret
 	story.print_headline 									# i'm only taking first three for my feed..
 end
 
+mashable_feed = Mashable.new.fetch_stories
+mashable_feed.slice(1..3).each do |story|
+	story.print_headline
+end
+
+
+
 

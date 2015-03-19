@@ -1,5 +1,3 @@
-# HINT: You will have to add an initialize method!
-
 class Reddit
   attr_accessor :headlines, :title, :upvotes, :url
 
