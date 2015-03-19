@@ -15,18 +15,13 @@
 # GRADING
 # Your midterm is considered completed if it meets all requirements above. Your instructor and T.A will provide you with feedback!
 
-# http://www.reddit.com/search.json?q=lions
-# 'https://api.admoda.com/v1/advertiser/stats/dates?from_date=2013-07-01&to_date=2013-07-18&campaign_id=91636'
-# 'Authorization: Token token="9a400eaa8328f3f7eeb3206ee7928204"'
+require_relative 'reddit'
+require_relative 'thread'
 
-require_relative 'dataset'
-require_relative 'admoda'
+new_reddit = Reddit.new('lions')
+new_reddit.fetch_threads
+puts new_reddit.threads.first.headline
 
-new_admoda = Admoda.new
-new_admoda.fetch_data
-
-# require 'json'
-# require 'rest-client'
-
-# reddit_json = JSON.load(RestClient.get('http://www.reddit.com/.json'))
-# puts reddit_json['data']['children']['data'].class
+# I realize this is pretty weak attempt but I tried to reach out for help with a more difficult API
+# and didn't hear anything back. Unfortunately, I couldn't get this one working so I appreciate any
+# guidance as to how I can fix the problem.  Thanks!

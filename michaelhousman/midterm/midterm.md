@@ -17,10 +17,6 @@ Create a command line based application that fulfills these criteria:
 ##GRADING
 Your midterm is considered completed if it meets all requirements above. Your instructor and T.A will provide you with feedback!
 
-# http://www.reddit.com/search.json?q=lions
-'https://api.admoda.com/v1/advertiser/stats/dates?from_date=2013-07-01&to_date=2013-07-18&campaign_id=91636'
-'Authorization: Token token="9a400eaa8328f3f7eeb3206ee7928204"'
-
 API Ideas: 
 
 *	Twitter search api
