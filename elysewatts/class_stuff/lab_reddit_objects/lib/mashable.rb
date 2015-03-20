@@ -1,22 +1,24 @@
-# Bonus: Make Mashable work like the Reddit object:
-#   1. Load the stories from mashable
-#   2. Store them in a list of Story objects
-#   3. Display them with the other stories in main.rb
-
 class Mashable
-	attr_accessor :stories
+  attr_accessor :headlines, :title, :upvotes, :url
 
 
-	def initialize
-		@stories = []
-	end
-
+  def initialize
+    @headlines = []
+  end
 
   def fetch_stories
-  	if @stories.is_empty?
-
-  		## sames as reddit but for mashable api
-  	end
-    
+    mashable_json_string = RestClient.get('http://mashable.com/stories.json')
+    mashable_json = JSON.load mashable_json_string 
+    mashable_stories = mashable_json['new']
+    mashable_stories.each do |story| 
+      title = story['title']
+        upvotes = story['shares']['total']
+        url = story['link']
+        headline = Story.new(title, upvotes, url, 'mashable.com')
+        @headlines << headline 
+      end
+    @headlines
   end
+
+
 end
