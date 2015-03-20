@@ -22,12 +22,13 @@ class Game
 		end
 		if @guess != @answer
 			puts "You lost. Game over."
+			puts "The answer was #{@answer}, #{@player.name}."
 		end
 	end
 		
 
 	def game_rules
-		puts "You have three guesses to figure out what the secret number is, hint it is between 1 and 10."
+		puts "You have three guesses to figure out what the secret number is, hint it is between 1 and 15."
 	end
 
 	def guess_left

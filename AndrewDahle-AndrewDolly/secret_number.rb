@@ -1,4 +1,4 @@
-#	Intros
+	#	Intros
 # 	-	Welcome the player to your game. Let them know who created the game. 
 #	  -	Ask for the player's name then personally greet them by printing to the screen, "Hi player_name!"
 #	  -	Any good game will communicate the rules. Let the player know they must guess a number between 1 and 10 

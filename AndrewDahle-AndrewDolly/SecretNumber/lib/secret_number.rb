@@ -4,7 +4,6 @@ class SecretNumber
 	attr_accessor :answer
 
 	def initialize
-		@answer = rand(1..10)
-		puts "answer is #{@answer}"
+		@answer = rand(1..15)
 	end	
 end
