@@ -1,0 +1,11 @@
+<center>
+<h3>choose your throw:</h3>
+<tr>
+  <% @throws.each do |throw| %>
+    <td>
+    <%= link_to image_tag("#{throw}.jpg"), rp_path(throw) %>
+    <!-- <h3><%= throw %></h3> -->
+    </td>
+  <% end %>
+</tr>
+</center>
