@@ -6,9 +6,11 @@ class Preference
 	def like
 		x = 0
 		y = 0
-		while x < 10
+		while x < 4
+			new_reddit = Reddit.new
+			new_reddit.fetch_stories
 			puts new_reddit.stories[x].headline
-			puts "Do you like this headline"
+			puts "Do you like this headline /n"
 			user_like = gets.chomp
 				if user_like == 'yes'
 					y = y + 1
@@ -22,6 +24,14 @@ class Preference
 			end
 		end
 	def check
-		puts "#{@yes}"
+		puts "You liked #{@yes} headlines"
+		if @yes > 2
+			puts "You are easy to please!"
+		else 
+			puts "You are picky, here are some more stories"
+			new_reddit = Reddit.new
+			new_reddit.fetch_stories
+			puts new_reddit.stories[5, 10]
+		end
 	end
 end

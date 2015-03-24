@@ -1,5 +1,5 @@
 class Reddit
-  attr_accessor :stories
+  attr_accessor :stories, :fetch_stories
   def initialize
     @stories =  []
   end
