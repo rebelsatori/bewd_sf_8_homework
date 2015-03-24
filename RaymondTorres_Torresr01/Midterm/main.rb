@@ -1,8 +1,8 @@
-# require_relative 'lib/user_end'
+require_relative 'lib/user_end'
 require_relative 'lib/search'
-# require_relative 'lib/secret_number'
+require_relative 'lib/api' 
 
-puts "\nWelcome to Reddit Search Engine 2.015.\nThis midterm was considered by GA_BEWD_8 and created by Raymond Torres."
+puts "\nWelcome to Reddit Search Engine 2.015.\nThis midterm was considered by GA_BEWD_8 and created by Raymond Torres.\n "
 
-user = Search.new
-user.start
+engage = Search.new
+engage.start
