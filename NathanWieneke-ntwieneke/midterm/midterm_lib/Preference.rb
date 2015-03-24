@@ -6,17 +6,21 @@ class Preference
 	def like
 		x = 0
 		y = 0
-		while x < 4
+		while x < 4 do
 			new_reddit = Reddit.new
 			new_reddit.fetch_stories
 			puts new_reddit.stories[x].headline
-			puts "Do you like this headline /n"
+			puts "Do you like this headline?"
 			user_like = gets.chomp
 				if user_like == 'yes'
 					y = y + 1
 					x = x +1
+					puts "y is at #{y}"
+					puts "x is at #{x}"
 				elsif user_like == 'no'
 					x = x + 1
+					puts "y is at #{y}"
+					puts "x is at #{x}"
 				else
 					puts "please enter (yes) or (no)"
 				end
