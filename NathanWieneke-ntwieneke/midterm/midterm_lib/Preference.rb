@@ -1,6 +1,6 @@
 class Preference
 	attr_accessor :yes, :like, :check
-	def initialize
+	def initialize(yes)
 		@yes = 0
 	end
 	def like
@@ -17,6 +17,8 @@ class Preference
 					x = x +1
 					puts "y is at #{y}"
 					puts "x is at #{x}"
+					@yes << y
+					puts @yes
 				elsif user_like == 'no'
 					x = x + 1
 					puts "y is at #{y}"
@@ -24,7 +26,7 @@ class Preference
 				else
 					puts "please enter (yes) or (no)"
 				end
-			@yes << y
+			
 			end
 		end
 	def check
@@ -32,10 +34,10 @@ class Preference
 		if @yes > 2
 			puts "You are easy to please!"
 		else 
-			puts "You are picky, here are some more stories"
+			puts "You are picky, here is another story"
 			new_reddit = Reddit.new
 			new_reddit.fetch_stories
-			puts new_reddit.stories[5, 10]
+			puts new_reddit.stories[5]
 		end
 	end
 end
