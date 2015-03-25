@@ -17,11 +17,14 @@ class Reddit
         selftext = story['data']['selftext']
         url = story['data']['url']
         @stories << Story.new(title, selftext, url)
-      end 
+      end   
    end
 
 	def print_stories
 		@stories.each do |story|
-			puts @stories
+			puts story.title
+			puts story.selftext
+			puts story.url
+		end
 	end
 end
