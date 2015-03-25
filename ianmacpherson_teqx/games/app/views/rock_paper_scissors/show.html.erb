@@ -1,0 +1,15 @@
+<h1>RockPaperScissors#show</h1>
+<p>Find me in app/views/rock_paper_scissors/show.html.erb</p>
+
+<% if @throw == @guess %>
+<h1>You tied!</h1>
+<% elsif @throw == 0 && @guess == 2 %>
+<h1>You lose!</h1>
+<% elsif @guess > @throw %>
+<h1>You win!</h1>
+<% else %>
+<h1>You lose!</h1>
+<% end %>
+
+<h4>The throw was <%= image_tag(@image_array[@throw]) %></h4>
+<h3><%= link_to 'Play Again', new_rock_paper_scissor_path %></h3>
