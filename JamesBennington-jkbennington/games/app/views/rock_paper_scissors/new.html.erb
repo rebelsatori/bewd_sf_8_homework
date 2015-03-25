@@ -4,7 +4,7 @@
 <p>Choose carefully... you only get one try!</p>
 <h2>GO!</h2>
 <ul>
-  <% 1.upto(5) do |number| %>
-    <li><%= link_to number, secret_number_path(number) %></li>
-  <% end %>
+	<li><%= link_to 'Rock' , rock_paper_scissors_path %></li>
+    <li><%= link_to 'Paper', rock_paper_scissors_path %></li>
+    <li><%= link_to 'Scissors', rock_paper_scissors_path %></li>
 </ul>
