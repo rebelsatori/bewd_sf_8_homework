@@ -1,0 +1,7 @@
+<%= render @outcome_partial %>
+
+<% if @outcome_partial == 'win' %>
+  <h3><%= link_to "PLAY AGAIN", new_scrambler_path %></h3>
+<% else %>
+  <%= render 'question' %>
+<% end %>
