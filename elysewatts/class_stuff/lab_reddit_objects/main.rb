@@ -1,23 +1,24 @@
-
-require 'json'
-require 'rest-client'
-
-
-require_relative 'lib/story'
-require_relative 'lib/reddit'
-require_relative 'lib/mashable'
+class Reddit
+  attr_accessor :headlines, :title, :upvotes, :url
 
 
-reddit_feed = Reddit.new.fetch_stories #instantiate a reddit option and call its get_stories method
-reddit_feed.slice(1..3).each do |story| # for each story object in the array returned, call its print_headline method 
-	story.print_headline 									# i'm only taking first three for my feed..
+  def initialize
+    @headlines = []
+  end
+
+  def fetch_stories
+    reddit_json_string = RestClient.get("http://www.reddit.com/")
+    reddit_json = JSON.load reddit_json_string
+    reddit_stories = reddit_json['data']['children']
+    reddit_stories.each do |story| 
+      title = story['data']['title']
+        upvotes = story['data']['ups']
+        url = story['data']['url']
+        headline = Story.new(title, upvotes, url, 'reddit.com')
+        @headlines << headline 
+      end
+    @headlines
+  end
+
+
 end
-
-mashable_feed = Mashable.new.fetch_stories
-mashable_feed.slice(1..3).each do |story|
-	story.print_headline
-end
-
-
-
-
