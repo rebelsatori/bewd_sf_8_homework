@@ -1,0 +1,17 @@
+<h1>Welcome to Rock Paper Scissor Game!</h1>
+<p>To play this game, all you have to do is choose rock, paper, scissors. If you guess the
+  <em>the right SHOT</em>, you win!</p>
+<p>Choose carefully... you only get one try!</p>
+<h2>Pick your SHOT:</h2>
+<!-- <ul>
+  <% 1.upto(3) do |number| %>
+    <li><%= link_to number, secret_number_path(number) %></li>
+  <% end %>
+</ul>
+ -->
+<!-- 0 - paper; 1 - rock; 2 - scissors  -->
+ <ul>
+ 	<li><a href="0"><img src="<%= asset_path( 'paper.jpeg' ) %>"></a></li>
+ 	<li><a href="1"><img src="<%= asset_path( 'rock.jpeg' ) %>"></a></li>
+ 	<li><a href="2"><img src="<%= asset_path( 'scissors.jpeg' ) %>"></a></li>
+ </ul>
