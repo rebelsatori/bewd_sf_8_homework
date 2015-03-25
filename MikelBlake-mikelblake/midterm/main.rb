@@ -9,4 +9,4 @@ puts 'Type in a word and I will show you stories related to that word.'
 reddit = Reddit.new
 
 reddit.fetch_stories
-reddit. print_stories
+reddit.print_stories
