@@ -1,0 +1,2 @@
+module RockPapersHelper
+end

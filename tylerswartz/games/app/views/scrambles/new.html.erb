@@ -1,0 +1,22 @@
+<div class="all-games-link">
+	<%= link_to 'BACK TO ALL GAMES', root_path %>
+</div>
+<div class="game-center">	
+	<div class="game-directions">
+		<h1>Word Scramble!</h1>
+		<h3>To play this game unscramble the letters below to form a proper word.</h3>
+	</div>
+	<div class="scramble-word">
+		<h1><%= @scrambled_word.upcase %></h1>
+	</div>
+	<div class="scramble-form">
+		<%= form_tag("/scrambles/1", method: "get") do %>
+			<%= text_field_tag :guess, nil, :autocomplete => 'off' %>	
+  		<%= hidden_field_tag :word, @random_word %>
+  		<%= submit_tag("Guess!") %>
+		<% end %>
+	</div>
+
+</div>
+
+

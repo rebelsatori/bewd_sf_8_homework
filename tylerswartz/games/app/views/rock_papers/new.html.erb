@@ -1,0 +1,20 @@
+
+<div class="all-games-link">
+	<%= link_to 'BACK TO ALL GAMES', root_path %>
+</div>
+<div class="game-center">	
+	<h1>Rock Paper Scissors!</h1>
+	<h3>To play this game pick a throw:</h3>
+	<div class="choose-hand">
+	    <div class="hand-container">
+	    	<%= link_to image_tag("rock_paper/rock.jpeg", :class=> "hand-img") + 'ROCK', rock_paper_path(0) %>
+	    </div>
+	    <div class="hand-container">
+	    	<%= link_to image_tag("rock_paper/paper.jpeg", :class=> "hand-img") + 'PAPER', rock_paper_path(1) %>
+	    </div>
+	    <div class="hand-container">
+	    	<%= link_to image_tag("rock_paper/scissors.jpeg", :class=> "hand-img") + 'SCISSORS', rock_paper_path(2) %>
+	    </div>
+	</div>
+</div>
+
