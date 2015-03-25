@@ -8,25 +8,24 @@ class User
 	end
 
 	def users_choice
-			engage.API.new
-			engage.output
 
 		if @response == "1" #title
-			@title_abc
+			engage=API.new
+			engage.title_output
 		elsif @response == "2" #comments
-			puts "2"
+			engage=API.new
+			engage.comments_output
 		elsif @response == "3" #upvotes
-			puts "3"
+			engage=API.new
+			engage.upvote_output
 		else	
 			users_mistake
 		end
 	end
 
 	def users_mistake
-		# if @response != "1"||"2"||"3"
 			puts "#{@response} is not a valid option."
 			engage=Search.new
 			engage.start
-		# end
 	end
 end

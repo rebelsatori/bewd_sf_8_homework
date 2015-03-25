@@ -1,36 +1,62 @@
 class API
-	attr_accessor	:title, :abc_titles
+	attr_accessor	:title, :reddit_st, :url
 
-def output
-	reddit
-	search_1
-end
+	def redd
+		require 'json'
+		require 'rest-client'
+		json_reddit = RestClient.get('https://www.reddit.com/.json')
+		reddit = JSON.load json_reddit
+		@reddit_st = reddit['data']['children']
+	end
 
+			def title_output
+				redd
+				
+				def output_format
+					"\nTitle: " + @title.to_s + "\n" + "URL: " + @url.to_s + "\n" 
+				end 
+				
+				@reddit_st.each do |story|
+					@title = story['data']['title']
+					@url = story['data']['url']
+					puts output_format
+				end
+				ending
+			end
 
-def reddit
-	require 'json'
-	require 'rest-client'
-	json_reddit = RestClient.get('https://www.reddit.com/.json')
-	reddit = JSON.load json_reddit
+			def comments_output
+				redd
+
+				def output_format
+					"\nNumber of Comments:" + @comments.to_s + "\n" + "Title: " + @title.to_s + "\n" + "URL: " + @url.to_s + "\n" 
+				end 
+				
+				@reddit_st.each do |story|
+					@comments = story['data']['num_comments']
+					@title = story['data']['title']
+					@url = story['data']['url']
+					puts output_format
+				end
+				ending
+			end
+
+			def upvote_output
+				redd
+				def output_format
+					"\nNumber of Upvotes:" + @upvotes.to_s + "\n" + "Title: " + @title.to_s + "\n" + "URL: " + @url.to_s + "\n" 
+				end 
+				
+				@reddit_st.each do |story|
+					@upvotes = story['data']['ups']
+					@title = story['data']['title']
+					@url = story['data']['url']
+					puts output_format
+				end
+				ending
+			end
+		
+		def ending
+		user=Search.new
+		user.end_program
+		end
 end 
-
-def search_1
-	@titles = reddit['data']['children']['data']['title']
-	@abc_titles = @titles.sort
-	puts @abc_titles
-end
-
-# def build_story(title, ups, url)
-# 	"Title: " + title + 
-# 	# "\nUps: " + ups +
-# 	# "\nURL: " + url + "\n "
-# # end
-
-# reddit['data']['children'].each do |story|
-# 	title = story['data']['title']
-# 	# ups = story['data']['ups'].to_s
-# 	# url = story['data']['url']
-# 	# puts build_story(title, ups, url)
-# end
-
-end
