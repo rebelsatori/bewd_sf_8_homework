@@ -1,0 +1,12 @@
+<h1>SecretNumbers#show</h1>
+<p>Find me in app/views/secret_numbers/show.html.erb</p>
+
+<% if @secret_number == @guess %>
+	<h1>Congratulations!  You Won!</h1>
+<% else %>
+	<h1>Sorry, that was the wrong answer.</h1>
+<% end %>
+
+<h4>The Secret number was <%= @secret_number %></h4>
+
+<h3><%= link_to 'PLAY AGAIN', new_secret_number_path %></h3>
