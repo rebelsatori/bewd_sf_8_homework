@@ -1,0 +1,10 @@
+<h1>Let's play Rock, Paper, Scissors!</h1>
+<p>It's easy to play, just choose rock paper or scissors.  
+
+<ul>
+	<% ['rock', 'paper', 'scissors'].each_with_index do |object, index|
+	%>
+	<li><%= link_to object, rock_paper_scissor_path(object) %></li>
+	<%end%>
+</ul>
+
