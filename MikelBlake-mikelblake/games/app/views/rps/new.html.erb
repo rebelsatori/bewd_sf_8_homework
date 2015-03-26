@@ -1,0 +1,9 @@
+<h1>Welcome to Rock, Paper, Scissors Game!</h1>
+<p>To play this game, all you have to do is choose Rock, Paper, or Scissors.</p>
+
+<h2>Choose:</h2>
+<ul>
+  <% @rps.each do |throw| %>
+    <li><%= link_to throw, rp_path(throw) %></li>
+  <% end %>
+</ul>
