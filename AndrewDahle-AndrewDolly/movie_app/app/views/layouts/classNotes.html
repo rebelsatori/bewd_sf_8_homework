@@ -1,0 +1,59 @@
+
+
+//rails generate model Movie name:string description:string color:string size:string
+
+//rails console 
+//rails console bundle (if bundle not already there)
+//rails console
+pry> ls Animal   (produces a lot of records, care about ones under activeRecord QueryCache)
+--create, read, update, delete..
+Animal.connection;   (loads the database on Animal)
+Animal    (says table doesn't exist)  
+exit
+
+
+//rails server
+//rake db:migrate (runs all the migrations you haven't run yet / updates them)
+//rake db:seed   (have to do this before doing rails console...then you have access to db)
+
+
+		//rake db:rollback (undo whatever changes you had made if  you wanted to)
+//rails console
+pry>ls Animal
+Animal.all 
+Animal.where(color: "black")
+Animal.create name: 'Panther', size: "medium', color: 'black', breed: 'magin', weight '120'
+Animal.where(color: 'black')     (shows all w/ black in array)
+Animal.find(1)    (would only return one instance w/ the ID of 1)
+panther = Animal.find(1)
+panther.size
+panther.class
+panthers = Animal.where(name: 'Panther')
+Animal.all 
+possum.breed = panther.breed   (returns breed of panther)
+possum.save   (loads changed input about to be saved)
+commit transaction     
+magic_animals = Animal.where(breed: 'magic')
+magic_animals.first  (now it treats the prior like an array, bc there were 2 that fit criteria)
+possum.destroy   
+Animal.destroy_all
+
+
+
+
+rails generate migration AddCostToAnimals cost:integer
+
+rails generate migration RemoveSizeFromAnimals size:string
+
+then rake: db:migrate
+
+
+In the gemfile, do this almost first (toward bottom):
+group :development do
+gem 'pry'
+gem 'pry-rails'
+end
+
+
+
+*almost never edit schema file
