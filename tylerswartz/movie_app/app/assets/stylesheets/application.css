@@ -1,0 +1,151 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.nav {
+	width: 100%;
+	background: #000;
+	padding: 1px;
+}
+
+.headline {
+	margin-left: 20px;
+	border-bottom: 1px solid black;
+}
+
+.headline h1 {
+	margin-bottom: 2px;
+}
+
+.headline h3 {
+	margin-top: 2px;
+	color: #fff;
+}
+
+.logo {
+	font-size: 42px;
+	color: #FF0000;
+}
+
+.main-container {
+	background: #E1E1E1;
+	padding: 1px;
+	padding-bottom: 50px;
+}
+
+.form-container {
+	background: #E1E1E1;
+	width: 100%;
+	height: calc(100% - 132px);
+}
+
+.search-add {
+	padding: 20px;
+}
+
+.add-btn {
+	color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  font-size: 18px;
+  line-height: 30px;
+  border-radius: 6px;
+  white-space: nowrap;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.all-movies {
+	margin-top: 15px;
+}
+
+.search-form {
+	padding: 20px;
+}
+
+
+
+.table, th, td {
+	border: 2px solid #FF0000;
+	border-collapse: collapse;
+}
+
+.table {
+	text-align: left;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.table th {
+	height: 40px;
+	font-size: 20px;
+	padding: 15px;
+	background-color: #ADD8E6;
+}
+
+.table tr {
+	height: 25px;
+}
+
+.table td {
+	padding: 15px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 500px;
+}
+
+
+/*Forms*/
+
+.search-add .form-control {
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.add-form .form-control {
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 25px;
+	display: block;
+}
+
+.add-form {
+	width: 250px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.field_with_errors {
+  color: red
+}
+
+.field_with_errors input {
+	border: 3px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+

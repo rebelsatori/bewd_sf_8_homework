@@ -1,0 +1,17 @@
+<%= form_for(@movie) do |f|%>
+  <%= render 'shared/error_messages' %>
+
+  <%= f.label :title, class: 'label' %>
+  <%= f.text_field :title, class: 'form-control', autocomplete: 'off'%>
+
+  <%= f.label :year_released, class: 'label' %>
+  <%= f.text_field :year_released, class: 'form-control', autocomplete: 'off' %>
+
+  <%= f.label :description, class: 'label' %>
+  <%= f.text_field :description, class: 'form-control', autocomplete: 'off' %>
+
+  <%= f.submit "Add Movie", class: "add-btn"%>
+
+  <%= link_to '<button type="button" class="add-btn all-movies">Return To Movies</button>'.html_safe, root_path %>
+<% end %> 
+
