@@ -1,3 +1,42 @@
-www.twitter.com/dokki_o
+What I learned in my first class, after the installation day.
 
-It’s not a proper blog, only a micro blog. *wink*
+Command Line
+Git 
+GitHub
+Version Control
+Different Commands for Bash and for using Git and Github
+
+I learned that Back End Web Development involves a lot of the heavy work. 
+You’re like the architect, electrician, plumber, carpenter, foreman, and the 
+crane driver and so on. 
+
+I also learned that Back End Web Developers can do the work of Front End, but usu. 
+they just do the placeholders that the Front End Web Developers will later work on
+
+Learning never ends, it’s complex and it never stops being challenging.
+There’s never a shortage of work to do. 
+
+Problem solving skills
+1. Stop
+2. What problem am I trying to do?
+3. What assumptions am I making?
+4. How can I solve it?
+5. Ask instructors/peer or hit up Stack Overflow
+6. Once you understand you can write code
+
+How does Git work?
+Remote Repository (any network machine, possibly Github)
+to Working Directory (your working directory on local disc)
+git pull origin remote
+
+Remote Repository to local repository
+git fetch
+
+Local repository to Remote Repository (any network machine, possibly Github)
+git push origin remote
+
+Stage (or index or cache) to Local Repository
+git commit -m 'my commit'
+
+Working Directory (your working directory on local disc) to Stage (or index or cache)
+git add <file><folder>
