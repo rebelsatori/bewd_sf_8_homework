@@ -1,0 +1,8 @@
+1.Write CD name_of_directory
+2.Git is a local language built into your computer where you can save things to a local repository. Github is a website used as a Respository that works especially well when working on a group project.
+3. A git repository is somewhere you can store a version of a code.
+4. Git add
+5. git push
+6. A fork is a personal version of a github repository that pushes upstream to the Master repository on github. Only you can edit what's within your fork.
+7. The purpose of a pull request is to update your code to the latest version, enabling you to integrate what others have edited within the master repository code.
+8. Forking is your own version of a master repository that you alone can edit locally and push upstream to the master. Cloning is pulling a master code for the first time that you will access through github, pulling updated versions as they become available.

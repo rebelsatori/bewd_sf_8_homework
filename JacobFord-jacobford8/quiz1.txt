@@ -1,0 +1,8 @@
+1.  cd
+2.  git is a program that handles source control.  github is a web app that is a GUI for git, and adds the ability to fork and merge code.
+3.  a "folder" for your code to go into.
+4.  git add
+5.  git push
+6.  a copy of another repository under your own github account.
+7.  to allow a peer/developer to review/test your code prior to performing a merge into your master branch.
+8.  forking is used when dealing with public repositories.  cloning is used with private repositories that you have express permission to push/merge to.  for instance, i would fork the rails repository and then create a pull request to merge my code into the rails repository.  conversely, i would clone a private repository that i have permission to do so with, check out a new branch, make changes on my branch and then create a pull request to merge my branch to master of said repository.  i think this is sort of subjective, to be honest.  it kind of depends on the team.

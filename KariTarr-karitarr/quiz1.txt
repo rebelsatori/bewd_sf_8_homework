@@ -1,0 +1,29 @@
+ quiz1
+
+(Put your answers in Sublime Text.) 
+
+    1. How do I change directories using the command line?
+    cd <directory_name>
+    
+    2. What is the difference between Git and Github?
+    Github is a visual web app that uses git version control technology
+
+    3. What is a git repository?
+    a collection of files associated with a project
+
+    4. How do I add files to the git stage?
+    git commit -m "message"
+
+    5. Which of the following is the correct way to push from your local repo to your GitHub repo? 
+        git push
+
+    6. What is a fork?
+    a forking clones the repository and creates a new repository on your github account 
+
+    7. What is the purpose of a pull request?
+    a request to merge your changes into the master code repository
+
+    8. What is the difference between forking and cloning?
+    cloning creates a working and local directory from the master on your machine, forking creates another remote repository associated with your github account.
+    
+

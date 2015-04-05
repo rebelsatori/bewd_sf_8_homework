@@ -1,0 +1,146 @@
+// Place all the styles related to the Games controller here.
+
+body {
+	text-align: center;
+	background-image: image-url("/images/games/CU0Ma3o.png"); 
+	color: #FAEBD7;
+	font-family: 'Indie Flower', cursive;
+}
+
+.all-games-link {
+	margin-right: 80%;
+  width: 185px;
+  background: #170700;
+  padding: 10px 5px 10px 5px;
+  border-radius: 16px;
+}
+
+.all-games-link a {
+	text-decoration: none;
+  color: #FAEBD7;
+}
+
+.game-center {
+	background: rgba(0,0,0,0.6);
+  width: 610px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 15px 30px 15px;
+  border-radius: 40px;
+}
+
+.games img {
+	border: 1px solid black;
+	margin: 10px;
+  max-width: 200px;
+  border-radius: 15px;
+}
+
+.games a {
+	display: inline;
+}
+
+.choose-hand {
+	display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.hand-container {
+  width: 175px;
+  margin: 10px;
+}
+
+.hand-container img {
+	margin: 10px;
+}
+
+.hand-container a {
+	text-decoration: none;
+	color: #FAEBD7;
+}
+
+.num-container {
+  width: 175px;
+  margin: 10px;
+}
+
+.num-container img {
+	margin: 10px;
+}
+
+.num-container a {
+	text-decoration: none;
+	color: #FAEBD7;
+}
+
+.win-lose-gif {
+	max-width: 300px;
+}
+
+.play-again {
+	background: #FAEBD7;
+  width: 125px;
+  margin: auto;
+  padding: 10px 5px 10px 5px;
+  border-radius: 16px;
+}
+
+.play-again a {
+	text-decoration: none;
+  color: #000;
+}
+
+.scramble-form input {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

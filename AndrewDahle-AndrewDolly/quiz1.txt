@@ -1,0 +1,8 @@
+1. cd
+2. github is the actual repository, whereas git is the command line code and process of communication with github
+3. a version control repository for code, particularly useful for collaboration or multi person projects where you need to track changes, versions, edits etc
+4. git add [filename] kor git add .
+5.  2) git commit -m " "
+6. Fork is a means to add your github account and changes to a global repository which then allows you to stage changes and add / push them??
+7. Pull requests update local repositories with all official or final changes made in the master repository
+8. Difference between cloning and forking? Not sure I know what forking really is, but i feel like cloning is similar to pull in that I'm updating or copying a versino of everything over to my local repository so that I can edit it. I

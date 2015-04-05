@@ -1,0 +1,8 @@
+1. cd <directory name>
+2. Git is a file management system that is already built into your computer.  Github is an interface to use Git with added functionality
+3. Git repository stores your files and file versions
+4. Git add <file or directory>
+5. git push
+6. it makes another stream of code that can be controlled separately from the original stream
+7. you are taking files from a remote repository and adding them to your local repository
+8. difference between cloning and forking: cloning is copying directly from a stream.  forking is copying to make changes in a separate stream

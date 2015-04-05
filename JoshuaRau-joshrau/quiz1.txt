@@ -1,0 +1,8 @@
+1.) cd
+2.) Git is the backend mechanism that build repositories, Github is a friendly user interface built on top of git
+3.) A place where versions of files are stored
+4.) By "Adding" these files to the state using git Add <filename> or git add .
+5.) #3 git push
+6.) A fork is a copy of a directory to your remote repository
+7.) A pull request asks the origin to merge your files with theirs
+8.) Forking copies the github files to your github account but cloning creates a local repository for those files on your local machine. Must fork before you clone.

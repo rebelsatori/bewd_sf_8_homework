@@ -1,0 +1,8 @@
+1. cd
+2. Git is a version management platform. Github is a tool to add features to Git...make it more collaborative.
+3. A place to add and store files.
+4. In the commandline type 'git add'
+5. 3
+6. A copy of the master so you can work on code separately...without modifying the original
+7. Brings/updates all files from a Github repository down to your local repository
+8. Cloing is to copy the entire respoitory to your repo. Forking is working from the original repository but under your name.

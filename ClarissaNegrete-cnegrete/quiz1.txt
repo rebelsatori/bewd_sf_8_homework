@@ -1,0 +1,10 @@
+quiz1.txt
+
+1. cd
+2. github is the site that holds all your code, git is like mercurial but better - this is how we run commands in our terminal and git will communicate with git hub 
+3. a git repository is a home for all our directories on github - this is where all our code will live
+4. git add .
+5. git push (only after git add . and git commit -m 'whatever' have been run)
+6. a fork is like a clone but different because it is git hub specific - it asks github to clone the project and put it under your name 
+7. a pull request will download all the new data from a remote repository into the repository you cloned so basically any new code or modified code will but updated when you pull from the server so that you are up to date with master
+8. the difference between forking and cloning - with forking you can see other peoples request to clone from your repository. The end

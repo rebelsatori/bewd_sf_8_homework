@@ -1,0 +1,28 @@
+<div class="all-games-link">
+	<%= link_to 'BACK TO ALL GAMES', root_path %>
+</div>
+
+<div class="game-center">
+	<%= render @outcome_partial %>
+	
+	<h2>You threw 
+		<% if @player_throw == 0 %>
+			Rock
+		<% elsif @player_throw == 1 %>
+			Paper
+		<% elsif @player_throw == 2 %>
+			Scissors
+		<% end %>
+
+	and the robot threw 
+		<% if @robot_throw == 0 %>
+			Rock
+		<% elsif @robot_throw == 1 %>
+			Paper
+		<% elsif @robot_throw == 2 %>
+			Scissors
+		<% end %>
+	</h2>
+	
+	<h3 class="play-again"><%= link_to "PLAY AGAIN", new_rock_paper_path %></h3>
+</div>

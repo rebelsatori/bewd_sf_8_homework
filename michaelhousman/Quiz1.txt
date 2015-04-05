@@ -1,0 +1,10 @@
+Quiz questions:
+
+1) cd
+2) Github is housed in the cloud whereas Git is software you have to download onto your computer
+3) A git repository is essentially a shared folder where you push changes you've made to files
+4) git add <file name>
+5) git push
+6) A fork is the way that you create a copy of a central Git repo that you can then work with and not affect the master version
+7) The purpose of a pull request is to sync up the shared repo with your local version so that you're working with up-to-date files
+8) Cloning simply creates a copy on your computer but doesn’t allow you to modify the master. Forking creates a copy but then allows you to make changes and then push them back to the master version.

@@ -1,0 +1,15 @@
+1) cd
+
+2) git is a technology for version control, github is a company/product that makes it easy to use git + store / share versioned files
+
+3) a git repo is the full set of files tracked by git
+
+4) git add <file> OR git add .
+
+5) git push
+
+6) a fork is a copy of a repo that is a snapshot of that repo at a particular point in time
+
+7) you make a pull request when you want to merge a change you've made to a file(s) back into the repo you forked from.  The person(s) that own(s) the repo can accept or reject your pull request
+
+8) cloning is copying a repo so you can still get changes to it as the main repo is updated (via git pull / fetch).  forking is when you take a snapshot of a repo that doesn’t change 

@@ -1,0 +1,9 @@
+Elyse WAtts
+
+1. cd 
+2. git is a command line tool, github is a fancy front end that adds some functionality (forking!)
+3. a folder aka directory
+4. git add
+5. git push
+6. a copy of a repo
+7. pulling the remote stuff to your local repo

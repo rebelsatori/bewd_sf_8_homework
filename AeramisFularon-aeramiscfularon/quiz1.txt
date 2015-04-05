@@ -1,0 +1,8 @@
+1. cd <directory>
+2. Git is used to collaborate on projects, while GitHub is the system that holds the files/projects
+3. a folder/project in GitHub
+4. git add <files>
+5. 3
+6. Not sure
+7. to grab the folders from the remote repository to your local repository
+8. Not sure about this one, too.

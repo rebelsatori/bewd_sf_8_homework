@@ -1,0 +1,13 @@
+<%= render @outcome_partial %>
+
+<div>
+<h4>Your shot:</h4>
+	<img src="<%= asset_path(@chosen_shot_image) %>">
+</div>
+
+<h4>Secret shot:</h4>
+	<img src="<%= asset_path(@secret_shot_image) %>">
+</div>
+
+
+<h3><%= link_to "PLAY AGAIN", new_rock_paper_scissor_path %></h3>

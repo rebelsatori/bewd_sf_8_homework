@@ -1,0 +1,16 @@
+1. Change directories using cd .. or cd directory name.
+
+2. Git is a type of code management, github is a company that uses git to manange code in even better ways, such as pull request management.
+
+3. A git repositiory is a central container that stores code and tracks revisions.
+
+4. To add files to git stage use git add ., then git commit -m"msg"
+
+5. Git push.
+
+6. A fork is a copy of a repository that allows you to edit locally.
+
+7. A pull request is once you've made changes to someone else's code and you send a pull 
+request for them to 'pull' your changes into their code. It allows collaboration. 
+
+8. Forking vs Cloning...

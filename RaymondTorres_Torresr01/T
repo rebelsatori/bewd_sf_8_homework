@@ -1,0 +1,15 @@
+1. cd 
+
+2. git is a function of the terminal, while GitHub is a webapp that allows versions of code to be edited by multiple users.
+
+3. A git repository is the history of versions that have been commited through the git commit function. 
+
+4. After a file is created, it can be added to the git stage by using 'git init' and then 'git add.'
+
+5. git commit -m"push to GitHub" is the correct way to push from the local repository to the GitHub repository. 
+
+6. A fork is a pulled version that can be edited without affecting the master copy. 
+
+7. A pull request allows for a copy of a version to be transferred from the GitHub repo to your local repo.
+
+8 A fork allows for the separation of a particular version, while a copy allows the version to be edited on the local computer. 

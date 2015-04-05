@@ -1,0 +1,11 @@
+<div class="all-games-link">
+	<%= link_to 'BACK TO ALL GAMES', root_path %>
+</div>
+
+<div class="game-center">
+	<%= render @outcome_partial %>
+
+	<h3>The scrambled word was <%= @word.upcase %></h3>
+	
+	<h3 class="play-again"><%= link_to "PLAY AGAIN", new_scramble_path %></h3>
+</div>

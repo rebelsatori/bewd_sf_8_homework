@@ -1,0 +1,8 @@
+1. cd
+2. Git is a local version control. GitHub is a centralized version control on the interwebz
+3. It holds all the files associated with a given project or application and manages the change control on said files.
+4. git add .
+5. git push
+6. It makes a copy of someone else's repo and creates the copy in my own GitHub account
+7. To pull down changes from a remote repo into my own local copy
+8. Forking creates a copy of repo within my own GitHub account which I would then clone to my local system. Cloning creates a copy of a remote repo directly onto my local system without creating a copy of the repo in GitHub. Forking is preferable when many people will be collaborating on a repo because it keeps track of the relationship between the two repos so you can visualize the commits between the two projects.

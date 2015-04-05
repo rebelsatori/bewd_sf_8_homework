@@ -1,0 +1,11 @@
+approach vehicle on left side
+insert key into front left door lock
+turn key
+pull door open
+sit in seat
+place key in inginition
+turn key
+if no ignition repeat 7
+else release E-brake
+move from P to D
+press foot on gas

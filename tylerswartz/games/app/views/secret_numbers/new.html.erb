@@ -1,0 +1,18 @@
+<div class="all-games-link">
+	<%= link_to 'BACK TO ALL GAMES', root_path %>
+</div>
+
+<div class="game-center">	
+	<h1>Welcome to Secret Number!</h1>
+	<p>To play this game, all you have to do is guess a number. <br>If you guess the
+	  <em>secret number</em>, you win!</p>
+	<p>Choose carefully... you only get one try!</p>
+	<h2>Pick a number:</h2>
+	<div class="choose-hand">
+	  <% 1.upto(5) do |number| %>
+	    <div class="num-container">
+	    	<%= link_to image_tag("secret_numbers/#{number}.jpeg"), secret_number_path(number) %>
+	    </div>
+	  <% end %>
+	</div>
+</div>

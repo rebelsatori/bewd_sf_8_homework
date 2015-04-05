@@ -1,0 +1,11 @@
+1. cd
+2. git is an app that manages file versioning with local and remote repositories
+   github is an online service for repositories using the git protocol
+
+3. a git repo is a person's place to store code 
+4. git add
+5. 3
+6. a copy of a repo
+7. to allow someone to merge changes from someone else without giving that person write access to his or her repo
+8. Forking is copying someone's repo to have your own copy of the code (on origin)
+   Cloning is copying code from a remote repo to a local repo

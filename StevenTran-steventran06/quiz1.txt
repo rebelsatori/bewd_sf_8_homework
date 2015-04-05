@@ -1,0 +1,8 @@
+1. cd
+2. Git is a Version Control System and GitHub is a online remote repository that can host your files and aids in collaboration.
+3. A git repository is a place where you push all of your files to be hosted, GitHub is an example
+4. git add
+5. 3
+6. A fork is a copy of the origin where you can make contribute edits and send to the origin as a separate user to approve. 
+7. A pull request is getting all of the updated files and changes from the online remote repository onto your local working directory.
+8. Cloning is getting a copy of the origin master onto your working directory and forking is the ability to make contribute edits as a separate user

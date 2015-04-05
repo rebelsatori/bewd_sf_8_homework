@@ -1,0 +1,8 @@
+I change directories using the command cd 
+Git is the program and Github is the cloud based program that allows people to collaborate on the same project
+Git repository is the first time the project/code I'm working on is published. Once commited to the repository whatever is there will be the start of the finished project.  
+I must use the code git add. 
+git push
+A fork is a copy of the public repository that I'm not allowed to make changes to. I can make changes in my forked copy. 
+A pull request is like telling you I've turned in my homework.   
+I'm not sure... 

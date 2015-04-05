@@ -1,0 +1,11 @@
+<h1>Unscramble this!</h1>
+
+<p>What word is this? <%=@word_scramble%></p>
+
+<%= form_tag("/scramblers") do %>
+  <%= label_tag(:guess, "Answer:") %>
+  <%= text_field_tag(:guess) %>
+  <%= submit_tag("Guess") %>
+  <%= hidden_field_tag(:problem, @word_scramble) %>
+  <%= hidden_field_tag(:solution, @word_answer) %>
+<% end %>
