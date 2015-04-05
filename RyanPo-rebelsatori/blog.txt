@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 What I learned during my first class, and this is the class after installation day
 
-=======
 What I learned in my first class, after the installation day.
 
 Command Line
@@ -10,17 +8,13 @@ GitHub
 Version Control
 Different Commands for Bash and for using Git and Github
 
->>>>>>> 16d831e6616a400aaf5ece9653039a0c7cffaf70
 I learned that Back End Web Development involves a lot of the heavy work. 
 You’re like the architect, electrician, plumber, carpenter, foreman, and the 
 crane driver and so on. 
 
-<<<<<<< HEAD
-=======
 I also learned that Back End Web Developers can do the work of Front End, but usu. 
 they just do the placeholders that the Front End Web Developers will later work on
 
->>>>>>> 16d831e6616a400aaf5ece9653039a0c7cffaf70
 Learning never ends, it’s complex and it never stops being challenging.
 There’s never a shortage of work to do. 
 
@@ -32,7 +26,6 @@ Problem solving skills
 5. Ask instructors/peer or hit up Stack Overflow
 6. Once you understand you can write code
 
-<<<<<<< HEAD
 I learned git init
 
 Version Control
@@ -45,7 +38,6 @@ I learned Bash and Git Commands
 
 I also learned that Back End Web Developers can do the work of Front End, but usu. 
 they just do the placeholders that the Front End Web Developers will later work on
-=======
 How does Git work?
 Remote Repository (any network machine, possibly Github)
 to Working Directory (your working directory on local disc)
@@ -62,4 +54,3 @@ git commit -m 'my commit'
 
 Working Directory (your working directory on local disc) to Stage (or index or cache)
 git add <file><folder>
->>>>>>> 16d831e6616a400aaf5ece9653039a0c7cffaf70
