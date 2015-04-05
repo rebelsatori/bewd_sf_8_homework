@@ -1,3 +1,29 @@
-www.twitter.com/dokki_o
+What I learned during my first class, and this is the class after installation day
 
-It’s not a proper blog, only a micro blog. *wink*
+I learned that Back End Web Development involves a lot of the heavy work. 
+You’re like the architect, electrician, plumber, carpenter, foreman, and the 
+crane driver and so on. 
+
+Learning never ends, it’s complex and it never stops being challenging.
+There’s never a shortage of work to do. 
+
+Problem solving skills
+1. Stop
+2. What problem am I trying to do?
+3. What assumptions am I making?
+4. How can I solve it?
+5. Ask instructors/peer or hit up Stack Overflow
+6. Once you understand you can write code
+
+I learned git init
+
+Version Control
+
+Github
+
+I learned Bash and Git Commands
+
+
+
+I also learned that Back End Web Developers can do the work of Front End, but usu. 
+they just do the placeholders that the Front End Web Developers will later work on

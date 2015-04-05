@@ -1,0 +1,39 @@
+This is for 
+
+1. How do I change directories using the Command Line?
+Answer: cd - change directory
+
+2. What is the difference between Git and GitHub?
+Answer: Git can run on your computer, offline. It's a revision control system that can work between people who are inputting codes in different times. 
+GitHub is the online "bank" to store your projects in their submitted state, "permanently". 
+
+3. What is a Git Repository?
+
+Answer :
+It's where you store your work history, a repository has branches which has forks within a repository.
+
+Within a repository you have branches, which are effectively forks within your own repository. Your branches will have an ancestor commit in your repository, and will diverge from that commit with your changes. You can later merge your branch changes. Branches let you work on multiple disparate features at once.
+
+You can also track individual branches in remote repositories. This allows you to pull in changes from another individual's branches and to merge them into a branch of your own. This may be useful if you and a friend are working on a new feature together.
+credit - Stack Overflow
+
+
+
+4. How do I add files to the Git Stage
+Answer: git add
+
+
+
+5. Which of the following is the correct way to push  from your local repo to your GitHub repo?
+Answer: #2       git commit -m "push to GitHub"
+
+
+
+6. What is a fork?
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
+
+
+
+7. What is the purpose of a pull request?
+A pull request is a method of submitting contributions to an open development project. It is often the preferred way of submitting contributions to a project using a distributed version control system (DVCS) such as Git. A pull request occurs when a developer asks for changes committed to an external repository to be considered for inclusion in a project’s main repository.
+-Mark Johnson

@@ -25,3 +25,5 @@ Instructions
 Only use this repository for your homework and any files you are contributing in class.
 
 If any files are in the pull request outside of your personal folder, we will send it back to you to fix it!
+
+git remote -v

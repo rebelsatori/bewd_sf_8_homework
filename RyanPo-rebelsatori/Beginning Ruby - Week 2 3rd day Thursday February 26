@@ -1,0 +1,57 @@
+Exercise!
+
+Robot wants to use variables
+
+Findcar = stores the image of the car during morning, day and night
+stores instruction to move towards the side of the car, by the steering wheel
+data type: hash
+
+Findkey = stores the image of the key and the dimensions of it
+data type : hash
+
+Unlockdoor = stores robot finger instructions for inserting the key into the door
+data type : hash
+
+Opendoor = stores robot figner instructions for grasping the door handle and pulling it open
+data type : hash
+
+Entercar = stores robot torso, waist, joint, limb and finger instructions to enter car
+data type : hash
+
+Sit = stores robot torso, waist, joint, hand and limb instructions to facilitate seating
+data type : hash
+
+Fastenseatbelt = stores robot torso, arms and finger instructions to facilitate fastening seatbelts
+data type : hash
+
+Putkeystoignition = stores image and instructions for grasping the key, moving robot limbs and inserting key into ignition
+data type : hash
+
+Checkgas = activates the camera to take a picture of the gas level and send it to the user, uses robot speaker to say if gas is enough or not
+data type : string, fixnum, hash
+
+Checklights = contains instruction to turn on headlights or not, fog lamps, rear lights
+data type : Fixnum, Hash
+
+Adjustwipers = contains instructions for robot hands to switch wipers on or off
+data type : Fixnum, Hash
+
+Setmirrors = contains instruction to adjust driver's mirror and adjust by switch, mirrors in front and back
+data type : Fixnum, Hash
+
+Unlockbreaks : contains instruction to push on robot feet break and pull down handbreak, along with unlocking other breaks
+data type : Fixnum, hash
+
+
+Reverse : contains instruction to use emergency lights, turn robot torso and waist to allow viewing the back area of the car, press on reverse pedal
+data type : Hash
+
+Variables : floats for speed
+
+
+
+
+
+
+
+
