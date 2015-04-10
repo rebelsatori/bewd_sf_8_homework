@@ -17,6 +17,15 @@ def add_player
 end
 
 
+
+def add_player
+        get.chomp 'What is your name?'
+         
+
+
+      
+
+
 def start_game
 	    rand_number = SecretNumber.new.get_number
 	    game = Game.new(rand_number)

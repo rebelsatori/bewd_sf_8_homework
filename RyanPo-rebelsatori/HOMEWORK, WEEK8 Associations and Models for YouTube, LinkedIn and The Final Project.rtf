@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww23140\viewh12200\viewkind0
+\deftab720
+\pard\pardeftab720\sl320
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+LinkedIn \'a0\'a0\
+under user \'a0 \'a0 \'a0 \'a0 \'a0 		\'a0 \'a0 \'a0 \'a0 under_group \'a0 \'a0 \'a0 \'a0 \'a0 					\'a0 \'a0under_profile \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 under_account \'a0 \'a0 \'a0 \'a0 \'a0      \'a0 under_connection\
+has_one :account \'a0 \'a0 	        has_many :users \'a0 \'a0 \'a0			            	\'a0 \'a0has_one :user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0has_one: user \'a0 \'a0 \'a0 \'a0 \'a0      \'a0 \'a0has_one :user\
+has_one :profile \'a0 \'a0 \'a0 \'a0 \'a0 	        has_one :account	\'a0 \'a0 \'a0		\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0       \'a0 \'a0has_one :account		\'a0 \'a0 \'a0 \'a0 \'a0 has_one: profile               \expnd0\expndtw0\kerning0
+\'a0has_one :group \'a0 \'a0 \'a0 \'a0 \expnd0\expndtw0\kerning0
+\
+				\'a0 \'a0\'a0 \'a0 \'a0has_one_and_belongs_tomany: users						\'a0 \'a0 \'a0 \'a0\'a0 \'a0has_many :connection\
+		\'a0 \'a0																		\'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0\
+\
+\
+YouTube\
+under_account \'a0 \'a0 \'a0 \'a0 	\'a0 \'a0 \'a0 under_video \'a0 \'a0 \'a0 \'a0	 \'a0 \'a0 			\'a0 \'a0under_user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0   \'a0 under_channel \'a0 \'a0 \'a0 \'a0 \'a0 \'a0under_comment\
+has_one: user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0	\'a0\'a0 \'a0 \'a0has_one: account \'a0 \'a0 \'a0 \'a0			\'a0            \'a0has_and_belongs_tomany: video \'a0 \'a0 \'a0 \'a0 \'a0has_many: video \'a0 \'a0  \'a0 \'a0has_one: user\
+has_many: video \'a0 \'a0 \'a0\'a0	\'a0\'a0\'a0 \'a0 has_one: channel \'a0 \'a0 \'a0 			\'a0            \'a0has_many: comment \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0   \'a0 belongs_to :user\
+has_many: comment	\'a0\'a0 \'a0 \'a0belongs_to: channel	\'a0 \'a0 \'a0 \'a0			\'a0\'a0\'a0has_one: account									\
+			                \'a0has_many: comments\
+			                 has_and_belongstomany: channel\
+\
+\
+\
+FINAL PROJECT\
+PLANT OPTIMIZER SITE\
+under_plants \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 under_user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0  under_record \'a0 \'a0 \'a0 \'a0 \'a0\'a0		\'a0 \'a0 \'a0 \'a0\'a0under_database \'a0 \'a0 \'a0 \'a0 \'a0under_account\
+belongs_to :record \'a0 \'a0 \'a0 \'a0has_one :account \'a0 \'a0 \'a0 \'a0 has_many :plants \'a0 \'a0 \'a0 \'a0		\'a0 \'a0 \'a0\'a0\'a0 has_many :record \'a0 \'a0 \'a0 has_many :records\
+has_many :record \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 has_and_belongs_tomany: user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0        \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0belongs_to :user\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0   has_one :user\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+}
