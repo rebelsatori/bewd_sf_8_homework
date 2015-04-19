@@ -9,9 +9,7 @@
 LinkedIn \'a0\'a0\
 under user \'a0 \'a0 \'a0 \'a0 \'a0 		\'a0 \'a0 \'a0 \'a0 under_group \'a0 \'a0 \'a0 \'a0 \'a0 					\'a0 \'a0under_profile \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 under_account \'a0 \'a0 \'a0 \'a0 \'a0      \'a0 under_connection\
 has_one :account \'a0 \'a0 	        has_many :users \'a0 \'a0 \'a0			            	\'a0 \'a0has_one :user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0has_one: user \'a0 \'a0 \'a0 \'a0 \'a0      \'a0 \'a0has_one :user\
-has_one :profile \'a0 \'a0 \'a0 \'a0 \'a0 	        has_one :account	\'a0 \'a0 \'a0		\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0       \'a0 \'a0has_one :account		\'a0 \'a0 \'a0 \'a0 \'a0 has_one: profile               \expnd0\expndtw0\kerning0
-\'a0has_one :group \'a0 \'a0 \'a0 \'a0 \expnd0\expndtw0\kerning0
-\
+has_one :profile \'a0 \'a0 \'a0 \'a0 \'a0 	        has_one :account	\'a0 \'a0 \'a0		\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0       \'a0 \'a0has_one :account		\'a0 \'a0 \'a0 \'a0 \'a0 has_one: profile               \'a0has_one :group \'a0 \'a0 \'a0 \'a0 \
 				\'a0 \'a0\'a0 \'a0 \'a0has_one_and_belongs_tomany: users						\'a0 \'a0 \'a0 \'a0\'a0 \'a0has_many :connection\
 		\'a0 \'a0																		\'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
 \'a0 \'a0 \'a0 \'a0\
@@ -29,9 +27,31 @@ has_many: comment	\'a0\'a0 \'a0 \'a0belongs_to: channel	\'a0 \'a0 \'a0 \'a0			\'
 \
 FINAL PROJECT\
 PLANT OPTIMIZER SITE\
-under_plants \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 under_user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0  under_record \'a0 \'a0 \'a0 \'a0 \'a0\'a0		\'a0 \'a0 \'a0 \'a0\'a0under_database \'a0 \'a0 \'a0 \'a0 \'a0under_account\
-belongs_to :record \'a0 \'a0 \'a0 \'a0has_one :account \'a0 \'a0 \'a0 \'a0 has_many :plants \'a0 \'a0 \'a0 \'a0		\'a0 \'a0 \'a0\'a0\'a0 has_many :record \'a0 \'a0 \'a0 has_many :records\
-has_many :record \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 has_and_belongs_tomany: user \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0        \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0belongs_to :user\
-\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0   has_one :user\
-\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+under_plants \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0  \'a0 \'a0 \'a0 \'a0 \'a0 \'a0  under_record \'a0 \'a0 \'a0 \'a0 \'a0\'a0		\'a0 \'a0 \'a0 \'a0\'a0under_database \'a0 \'a0 \'a0 \'a0                     \'a0       under_account\
+belongs_to :record \'a0 \'a0 \'a0 \'a0            \'a0 has_many :plants \'a0 \'a0 \'a0 \'a0         \'a0 \'a0 \'a0\'a0\'a0 has_many :record \'a0 \'a0 \'a0                            has_many :records\
+has_many :record \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0                              \'a0 \'a0 \'a0 has_and_belongs_tomany: account\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0        \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0                              \'a0 \'a0 \'a0 \'a0 \'a0 \'a0   has_one :user\
+\
+\
+\
+observations table: APP prints it out for user to compare, OR automatically spits out optimized variables for every data point: fertilizer, PH, TDS, water.. etc\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\
+\
+\
+App will take data of every plant entered.\
+App will show which plant has the highest rate of survival or yield..\
+App will show the specs for that plant, PH level, TDS, and fertilizer and amount of water involved along with moisture, CO2, and humidity. \
+\
+How will the app optimize the data?\
+\
+The app can show a comparison, plant A, plant B\
+\
+The app can have an AUTO-LOG feature using connections w/ your instruments, plus an AUTO-RUN and AUTO-OPTIMIZE feature w/ your GREENHOUSE\
+\
+In 30 min, think really fast and brainstorm what the user would like\
+\
+\
+\
+\
+\
 }

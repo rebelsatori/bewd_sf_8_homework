@@ -1,0 +1,65 @@
+LinkedIn
+USR
+associations
+belongs_to :group     
+has_many :jobs           
+has_many :connection
+has_one :profile
+
+attributes 
+id
+first name
+last name
+photo
+
+
+job
+belongs_to :user
+
+
+group
+has_many :user
+
+
+connection
+
+
+profile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+YouTube
+under_user          under_video            under_channel       under_comment
+has_many :video     belongs_to :user       has_many :video     has_one :user
+has_many :comment                                              belongs_to :user
+
+FINAL PROJECT
+Plant Optimizer
+under_plants            under_record        under_database                      under_user
+belongs_to :record      has_many :plants    has_many :record                    has_many :records
+has_many :record                            has_and_belongs_tomany :account
+											has_one :user
+
+
+
+
+
+
